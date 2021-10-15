@@ -1,0 +1,5 @@
+.main-div > * {
+    display: block;
+    height: 30px;
+    border: rgb(20, 18, 19) dotted 2px;
+}

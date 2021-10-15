@@ -7,6 +7,7 @@ module.exports = {
     parserOptions: {
         ecmaVersion: 12,
         sourceType: "module",
+        requireConfigFile: false,
     },
     rules: {
         "no-param-reassign": "off",
@@ -15,5 +16,9 @@ module.exports = {
         "consistent-return": "off",
         "no-debugger": "off",
         "no-console": "off",
+        "class-method-use-this": "off",
+        "lines-between-class-members": "off",
+        "import/extensions": "off",
     },
+    parser: "@babel/eslint-parser",
 };
